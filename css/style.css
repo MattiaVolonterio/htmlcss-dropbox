@@ -338,13 +338,16 @@ hr {
   line-height: 30px;
 }
 
-/* CLIENT */
+/* ## CLIENT */
 
 .client-section {
-  /* debug */
-  height: 100px;
-  background-color: black;
-  margin-top: 50px;
+  margin-top: 150px;
+}
+
+.client-section h2 {
+  font-size: 2rem;
+  padding-right: 30%;
+  margin-bottom: 50px;
 }
 
 /* SQUARE SECTION */
