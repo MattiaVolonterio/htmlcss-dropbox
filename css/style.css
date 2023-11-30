@@ -1,3 +1,7 @@
+:root {
+  --header-height: 100px;
+}
+
 /* ## RESET */
 
 * {
@@ -8,4 +12,117 @@
 
 img {
   max-width: 100%;
+}
+
+/* ## UTILS */
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+
+  /* debug */
+  background-color: crimson;
+  min-height: 200px;
+}
+
+/* ## HEADER */
+
+.header {
+  height: var(--header-height);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* debug */
+  background-color: grey;
+}
+
+.header_nav-left,
+.header_nav-right {
+  /* debug */
+  background-color: cadetblue;
+  min-width: 200px;
+  min-height: 50px;
+}
+
+/* ## MAIN */
+
+/* JUMBOTRON */
+
+.jumbotron {
+  background-color: #b3d0e7;
+  padding-top: 50px;
+
+  /* debug */
+  padding-bottom: 50px;
+}
+
+.jumbotron-container.container {
+  width: 80%;
+}
+
+/* RATE PLANS */
+
+.rate-plans {
+  /* debug */
+  background-color: aquamarine;
+  height: 500px;
+  margin-top: 50px;
+}
+
+/* FIND PARTNER */
+
+.find-partner {
+  /* debug */
+  background-color: blueviolet;
+  margin-top: 50px;
+}
+
+/* CARD SECTION */
+
+.card-section {
+  /* debug */
+  height: 500px;
+  background-color: chartreuse;
+  margin-top: 50px;
+}
+
+/* CLIENT */
+
+.client-section {
+  /* debug */
+  height: 100px;
+  background-color: black;
+  margin-top: 50px;
+}
+
+/* SQUARE SECTION */
+
+.square-section {
+  /* debug */
+  width: 100%;
+  height: 500px;
+  margin-top: 50px;
+  background-color: #b3d0e7;
+}
+
+/* FAQ */
+
+.faq-section {
+  /* debug */
+  background-color: darkgoldenrod;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* ## FOOTER */
+
+.footer {
+  background-color: black;
+}
+
+.footer-container.container {
+  width: 80%;
 }
