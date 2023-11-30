@@ -22,7 +22,7 @@ body {
 /* ## UTILS */
 
 .container {
-  width: 55%;
+  width: 60%;
   margin: 0 auto;
   padding: 20px;
 
@@ -34,6 +34,7 @@ body {
   background-color: #0160ff;
   padding: 5px 15px;
   color: white;
+  text-align: center;
 
   cursor: pointer;
 }
@@ -41,6 +42,14 @@ body {
 .btn.btn-no-bg {
   background-color: inherit;
   color: inherit;
+}
+
+.light-text {
+  color: lightgray;
+}
+
+.success {
+  color: #0160ff;
 }
 
 /* ## HEADER */
@@ -150,8 +159,88 @@ body {
 .rate-plans {
   /* debug */
   background-color: aquamarine;
-  height: 500px;
+  min-height: 500px;
   margin-top: 150px;
+}
+
+.rate-plans-title {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.radio-button span {
+  margin: 0 50px 0 2px;
+}
+
+.rate-plans-vertical {
+  display: flex;
+  gap: 20px;
+
+  margin-top: 50px;
+}
+
+.plan {
+  width: calc(100% / 3);
+  padding-bottom: 30px;
+  border: 1px solid lightgray;
+  min-width: 300px;
+}
+
+.plan-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid lightgray;
+}
+
+.plan-icon span {
+  margin-left: 5px;
+}
+
+.plan-main-content {
+  padding: 0 25px;
+}
+
+.plan-main-content li {
+  list-style: none;
+  margin: 25px 0;
+}
+
+.plan-main-content li i {
+  vertical-align: top;
+}
+
+.plan-main-content li div {
+  display: inline-block;
+  max-width: 80%;
+  margin-left: 5px;
+}
+
+.plan-main-content .btn {
+  padding: 15px 0;
+}
+
+.plan-header,
+.plan-buy {
+  margin-top: 20px;
+  padding-bottom: 30px;
+  line-height: 35px;
+}
+
+.plan-buy {
+  margin-top: 30px;
+  display: block;
+}
+
+hr {
+  width: 20%;
+  border-style: solid;
+  border-color: lightgray;
+}
+
+.plan-bottom > h4 {
+  margin-top: 30px;
 }
 
 /* FIND PARTNER */
