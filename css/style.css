@@ -1,5 +1,5 @@
 :root {
-  --header-height: 100px;
+  --header-height: 80px;
 }
 
 /* ## RESET */
@@ -14,6 +14,10 @@ img {
   max-width: 100%;
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 /* ## UTILS */
 
 .container {
@@ -26,25 +30,63 @@ img {
   min-height: 200px;
 }
 
+.btn {
+  background-color: #0160ff;
+  padding: 5px 15px;
+  color: white;
+
+  cursor: pointer;
+}
+
+.btn.btn-no-bg {
+  background-color: inherit;
+  color: inherit;
+}
+
 /* ## HEADER */
 
 .header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+
   height: var(--header-height);
 
   display: flex;
   justify-content: space-between;
   align-items: center;
 
-  /* debug */
-  background-color: grey;
+  color: #818181;
+  background-color: white;
 }
 
 .header_nav-left,
 .header_nav-right {
-  /* debug */
-  background-color: cadetblue;
-  min-width: 200px;
-  min-height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.header-logo {
+  flex-shrink: 0;
+}
+
+.header li {
+  list-style: none;
+  display: inline-block;
+}
+
+.header li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header_nav-left-list li {
+  margin-left: 25px;
+}
+
+.header_nav-right-list li {
+  margin-right: 25px;
 }
 
 /* ## MAIN */
