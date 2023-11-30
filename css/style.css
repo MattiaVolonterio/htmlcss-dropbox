@@ -12,6 +12,7 @@
 }
 
 img {
+  display: block;
   max-width: 100%;
 }
 
@@ -100,7 +101,7 @@ body {
 
 /* ## MAIN */
 
-/* JUMBOTRON */
+/* ## JUMBOTRON */
 
 .jumbotron {
   background-color: #b3d0e7;
@@ -154,7 +155,7 @@ body {
   top: 100px;
 }
 
-/* RATE PLANS */
+/* ## RATE PLANS */
 
 .rate-plans {
   margin-top: 150px;
@@ -273,12 +274,10 @@ hr {
   font-weight: bold;
 }
 
-/* FIND PARTNER */
+/* ## FIND PARTNER */
 
 .find-partner {
   display: flex;
-  /* debug */
-
   margin-top: 100px;
 }
 
@@ -306,13 +305,37 @@ hr {
   padding: 15px 0;
 }
 
-/* CARD SECTION */
+/* ## CARD SECTION */
 
 .card-section {
-  /* debug */
-  height: 500px;
-  background-color: chartreuse;
-  margin-top: 50px;
+  margin-top: 100px;
+}
+
+.card-section-title {
+  font-size: 2rem;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+
+  margin-top: 40px;
+}
+
+.card {
+  width: calc(100% / 3 - 30px);
+  min-width: 200px;
+}
+
+.card > p {
+  margin-top: 30px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  line-height: 30px;
 }
 
 /* CLIENT */
