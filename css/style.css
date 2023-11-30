@@ -1,5 +1,6 @@
 :root {
   --header-height: 80px;
+  --container-lg: 70%;
 }
 
 /* ## RESET */
@@ -21,12 +22,11 @@ body {
 /* ## UTILS */
 
 .container {
-  width: 60%;
+  width: 55%;
   margin: 0 auto;
   padding: 20px;
 
   /* debug */
-  background-color: crimson;
   min-height: 200px;
 }
 
@@ -46,9 +46,9 @@ body {
 /* ## HEADER */
 
 .header {
-  position: sticky;
+  /* position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 1; */
 
   height: var(--header-height);
 
@@ -95,14 +95,54 @@ body {
 
 .jumbotron {
   background-color: #b3d0e7;
-  padding-top: 50px;
-
-  /* debug */
-  padding-bottom: 50px;
+  padding-top: 70px;
 }
 
 .jumbotron-container.container {
-  width: 80%;
+  width: var(--container-lg);
+}
+
+.jumbotron-title {
+  text-align: left;
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.jumbotron-main {
+  display: flex;
+}
+
+.jumbotron-main-left {
+  flex: 0 0 30%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding-right: 30px;
+  margin: 100px 0 20px 0;
+}
+
+.jumbotron-main-left-top {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.btn.jumbo-btn {
+  padding: 10px 20px;
+}
+
+.jumbotron-text {
+  font-size: 1.1rem;
+
+  color: rgb(59, 58, 58);
+}
+
+.jumbotron-image {
+  position: relative;
+  top: 100px;
 }
 
 /* RATE PLANS */
@@ -111,7 +151,7 @@ body {
   /* debug */
   background-color: aquamarine;
   height: 500px;
-  margin-top: 50px;
+  margin-top: 150px;
 }
 
 /* FIND PARTNER */
@@ -166,5 +206,6 @@ body {
 }
 
 .footer-container.container {
-  width: 80%;
+  width: var(--container-lg);
+  background-color: crimson;
 }
