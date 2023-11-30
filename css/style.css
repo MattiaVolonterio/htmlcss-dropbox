@@ -157,9 +157,6 @@ body {
 /* RATE PLANS */
 
 .rate-plans {
-  /* debug */
-  background-color: aquamarine;
-  min-height: 500px;
   margin-top: 150px;
 }
 
@@ -217,7 +214,8 @@ body {
   margin-left: 5px;
 }
 
-.plan-main-content .btn {
+.plan-main-content .btn,
+.rate-plans-horizontal-content-right .btn {
   padding: 15px 0;
 }
 
@@ -226,6 +224,10 @@ body {
   margin-top: 20px;
   padding-bottom: 30px;
   line-height: 35px;
+}
+
+.plan-header > h3 {
+  font-size: 1.2rem;
 }
 
 .plan-buy {
@@ -241,6 +243,34 @@ hr {
 
 .plan-bottom > h4 {
   margin-top: 30px;
+}
+
+.rate-plans-horizontal {
+  margin-top: 30px;
+  border: 1px solid lightgray;
+}
+
+.rate-plans-horizontal-content {
+  display: flex;
+  gap: 50px;
+  padding: 30px;
+}
+
+.rate-plans-horizontal-content-right {
+  width: 30%;
+}
+
+.plan-header-horizontal {
+  padding-bottom: 30px;
+  line-height: 40px;
+}
+
+.plan-header-horizontal h3 {
+  font-size: 1.5rem;
+}
+
+.plan-header-horizontal span {
+  font-weight: bold;
 }
 
 /* FIND PARTNER */
