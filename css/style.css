@@ -537,7 +537,7 @@ hr {
   justify-content: space-between;
   flex-wrap: wrap;
   column-gap: 30px;
-  row-gap: 50px;
+  row-gap: 150px;
 }
 
 .footer-column {
@@ -563,7 +563,7 @@ hr {
   padding-top: 50px;
   padding-bottom: 30px;
 
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: #999999;
 }
 
