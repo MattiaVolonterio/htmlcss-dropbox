@@ -490,14 +490,36 @@ hr {
 }
 
 .faq {
+  line-height: 100px;
+}
+
+.faq,
+.faq-hidden {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  line-height: 100px;
   border-bottom: 1px solid black;
 }
 
-.faq i {
+.faq-hidden {
+  display: none;
+}
+
+.faq-container:hover > .faq {
+  display: none;
+}
+
+.faq-container:hover > .faq-hidden {
+  display: flex;
+}
+
+.faq-hidden p {
+  width: 70%;
+  padding: 30px 0;
+}
+
+.faq i,
+.faq-hidden i {
   padding-right: 50px;
 }
 
