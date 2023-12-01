@@ -241,6 +241,10 @@ body {
   display: block;
 }
 
+.plan-buy a {
+  color: #0160ff;
+}
+
 hr {
   width: 20%;
   border-style: solid;
@@ -354,6 +358,10 @@ hr {
   font-size: 2rem;
   padding-right: 30%;
   margin-bottom: 50px;
+}
+
+.client-section a {
+  color: #0160ff;
 }
 
 /* ## SQUARE SECTION */
