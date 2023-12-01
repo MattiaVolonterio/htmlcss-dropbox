@@ -84,6 +84,18 @@ body {
 .header li {
   list-style: none;
   display: inline-block;
+  line-height: var(--header-height);
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  height: var(--header-height);
+}
+
+.header li:hover,
+.header .btn-container:hover {
+  box-shadow: 0 3px 0 0 #035fff;
 }
 
 .header li a {
