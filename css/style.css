@@ -506,6 +506,7 @@ hr {
 .footer {
   color: rgb(233, 233, 233);
   background-color: black;
+  padding-top: 60px;
 }
 
 .footer-container.container {
