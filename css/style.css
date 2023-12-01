@@ -56,9 +56,9 @@ body {
 /* ## HEADER */
 
 .header {
-  /* position: sticky;
+  position: sticky;
   top: 0;
-  z-index: 1; */
+  z-index: 1;
 
   height: var(--header-height);
 
@@ -302,7 +302,6 @@ hr {
 
 .find-partner-content .btn {
   display: inline-block;
-  /* width: 150px; */
   background-color: inherit;
   color: grey;
   border: 1px solid grey;
@@ -360,10 +359,6 @@ hr {
 /* ## SQUARE SECTION */
 
 .square-section {
-  /* debug */
-  width: 100%;
-  min-height: 500px;
-  margin-top: 50px;
   background-color: #b3d0e7;
 }
 
@@ -501,10 +496,46 @@ hr {
 /* ## FOOTER */
 
 .footer {
+  color: rgb(233, 233, 233);
   background-color: black;
 }
 
 .footer-container.container {
   width: var(--container-lg);
-  background-color: crimson;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 50px;
+}
+
+.footer-column {
+  width: calc(100% / 5 - 30px);
+  min-width: 130px;
+}
+
+.footer-column h3 {
+  font-size: 1.4rem;
+  line-height: 60px;
+}
+
+.footer-column li {
+  list-style: none;
+  line-height: 30px;
+}
+
+.language-selection {
+  display: flex;
+  align-items: center;
+  flex: 0 0 100px;
+  border-top: 1px solid lightgray;
+  padding-top: 50px;
+  padding-bottom: 30px;
+
+  font-size: 0.9rem;
+  color: #999999;
+}
+
+.language-selection > span {
+  margin: 0 5px;
 }
