@@ -348,6 +348,7 @@ hr {
 
 .client-section {
   margin-top: 150px;
+  margin-bottom: 100px;
 }
 
 .client-section h2 {
@@ -451,7 +452,8 @@ hr {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  padding: 150px 0;
+  padding-top: 150px;
+  padding-bottom: 150px;
   /* debug */
   min-height: 100px;
 }
@@ -474,10 +476,8 @@ hr {
 /* FAQ */
 
 .faq-section {
-  /* debug */
-  background-color: darkgoldenrod;
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 .faq-title {
