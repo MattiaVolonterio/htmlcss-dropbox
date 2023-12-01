@@ -33,9 +33,11 @@ body {
 
 .btn {
   background-color: #0160ff;
-  padding: 5px 15px;
+  padding: 8px 15px;
+  font-size: 0.9rem;
   color: white;
   text-align: center;
+  border: none;
 
   cursor: pointer;
 }
@@ -153,6 +155,7 @@ body {
 }
 
 .btn.jumbo-btn {
+  font-size: 1rem;
   padding: 10px 20px;
 }
 
@@ -232,9 +235,9 @@ body {
   margin-bottom: 25px;
 }
 
-.plan-main-content .btn,
-.rate-plans-horizontal-content-right .btn {
-  padding: 15px 0;
+.plan-main-content .btn {
+  padding: 15px;
+  width: 100%;
 }
 
 .plan-header,
@@ -280,6 +283,11 @@ hr {
 
 .rate-plans-horizontal-content-right {
   width: 30%;
+  text-align: right;
+}
+
+.rate-plans-horizontal-content-right .btn {
+  padding: 15px 35px;
 }
 
 .plan-header-horizontal {
@@ -317,13 +325,12 @@ hr {
 }
 
 .find-partner-content .btn {
-  display: inline-block;
   background-color: inherit;
   color: grey;
   border: 1px solid grey;
 
   margin-top: 30px;
-  padding: 15px 25px;
+  padding: 10px 20px;
 }
 
 /* ## CARD SECTION */
@@ -477,9 +484,7 @@ hr {
 }
 
 .square-section-bottom .btn {
-  flex-grow: 0;
-  width: 25%;
-  padding: 10px 0;
+  padding: 10px 40px;
 
   background-color: #ffffff;
   color: grey;
