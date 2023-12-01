@@ -408,12 +408,9 @@ hr {
   width: calc(100% / 2);
 }
 
-.square svg * {
-  fill: white;
-}
-
-.square svg {
+.square img {
   width: 50%;
+  filter: invert(1);
 }
 
 .designit {
