@@ -215,6 +215,11 @@ body {
   margin-left: 5px;
 }
 
+.plan-main-content-top {
+  min-height: 350px;
+  margin-bottom: 25px;
+}
+
 .plan-main-content .btn,
 .rate-plans-horizontal-content-right .btn {
   padding: 15px 0;
@@ -296,13 +301,14 @@ hr {
 }
 
 .find-partner-content .btn {
-  width: 150px;
+  display: inline-block;
+  /* width: 150px; */
   background-color: inherit;
   color: grey;
   border: 1px solid grey;
 
   margin-top: 30px;
-  padding: 15px 0;
+  padding: 15px 25px;
 }
 
 /* ## CARD SECTION */
