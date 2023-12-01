@@ -42,9 +42,17 @@ body {
   cursor: pointer;
 }
 
-.btn.btn-no-bg {
+.btn-no-bg {
   background-color: inherit;
   color: inherit;
+  padding: 8px 15px;
+  font-size: 0.9rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn:hover {
+  filter: opacity(70%);
 }
 
 .light-text {
